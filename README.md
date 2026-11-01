@@ -1,13 +1,25 @@
 # Paulo Afonso
 
-**QA Analyst** | Functional, exploratory and regression testing | SQL/PostgreSQL data validation | Healthcare systems
+**QA Analyst** | Manual and exploratory testing | Playwright (TypeScript) | SQL/PostgreSQL data validation | Healthcare systems
 
-5 years dedicated to software testing and 14 years on management systems for Brazil's public health system (SUS). I focus on silent data defects, the ones that pass review because the UI looks right. I use SQL to check the effect of each change across the full database, not just in the UI.
+Looking for remote QA Analyst / QA Engineer roles (manual + Playwright), as a contractor or through an EOR.
+Based in Teresina, Brazil (UTC-3).
 
-**Featured project:** [E-commerce data-quality lab](https://github.com/pauloafonsofh/ecommerce-data-quality-lab). A PostgreSQL store with seeded silent defects and a SQL test suite that finds them: one check per business rule, independent test oracles, defect reports with business impact, and CI that goes from red to green.
+I have worked on information systems for Brazil's public health system (SUS) for 14 years,
+the last 5 focused on software testing: functional, exploratory and regression testing,
+and SQL checks on the data behind the UI.
 
-**Currently:** postgraduate specialization in QA Engineering, with end-to-end testing in Playwright (expected Jan 2027).
+**Projects**
+- [conduit-e2e-playwright](https://github.com/pauloafonsofh/conduit-e2e-playwright):
+  Playwright smoke tests for a public Conduit (RealWorld) deployment. Each test is linked to a TestRail case,
+  known bugs stay in the suite with `test.fail()`, and deliberate defects (mutants) prove the assertions can fail.
+- [ecommerce-data-quality-lab](https://github.com/pauloafonsofh/ecommerce-data-quality-lab):
+  SQL test suite for a PostgreSQL store with seeded defects. Test strategy, bug reports
+  and pull requests that go from red to green in CI.
 
-**Tools:** SQL, PostgreSQL, Git, GitHub Actions, Jira, TestRail, Redmine, GitLab, DBeaver, Python
+**Studying:** Postgraduate specialization in QA Engineering at Mate Academy (Sep 2026 to Jan 2027, in progress).
 
-Remote | Open to B2B contract roles | Full-time | Brazil (UTC-3) | [LinkedIn](https://www.linkedin.com/in/paulo-afonso-brito)
+**How I use AI:** I decide what to test, the expected results and the assertions.
+I use Claude Code to write most of the code, then I review and run every test myself.
+
+English: intermediate · [LinkedIn](https://www.linkedin.com/in/paulo-afonso-brito)
